@@ -18,7 +18,7 @@
           {
               appName: "DwAR",
               customerId: "4",
-              campaignName: "Mother dairy",
+              campaignName: "Mother_Dairy",
               serverUrl: "https://staging.lttl.in/event"
           }
        );
@@ -152,77 +152,77 @@
 
   
     
-      const image_d466bb3e_901086a1_iconGeometry = new THREE.PlaneGeometry(1, 1);
-   const image_d466bb3e_901086a1_texture = await loadTexture("assets/blinkit-logo.png");
-  const image_d466bb3e_901086a1_image = new THREE.MeshBasicMaterial({
-      map: image_d466bb3e_901086a1_texture,
+      const image_d466bb3e_901ecfc3_iconGeometry = new THREE.PlaneGeometry(1, 1);
+   const image_d466bb3e_901ecfc3_texture = await loadTexture("assets/blinkit-logo.png");
+  const image_d466bb3e_901ecfc3_image = new THREE.MeshBasicMaterial({
+      map: image_d466bb3e_901ecfc3_texture,
     });
-    const image_d466bb3e_901086a1 = new THREE.Mesh(image_d466bb3e_901086a1_iconGeometry, image_d466bb3e_901086a1_image);
-    image_d466bb3e_901086a1.scale.set(0.3, 0.3, 0.3);
-    image_d466bb3e_901086a1.position.set(-0.32, -0.96, 0);
-    image_d466bb3e_901086a1.rotation.set(-0.001, 0, 0);
-    image_d466bb3e_901086a1.userData.clickable = true
+    const image_d466bb3e_901ecfc3 = new THREE.Mesh(image_d466bb3e_901ecfc3_iconGeometry, image_d466bb3e_901ecfc3_image);
+    image_d466bb3e_901ecfc3.scale.set(0.3, 0.3, 0.3);
+    image_d466bb3e_901ecfc3.position.set(-0.32, -0.96, 0);
+    image_d466bb3e_901ecfc3.rotation.set(-0.001, 0, 0);
+    image_d466bb3e_901ecfc3.userData.clickable = true
     
-    image_d466bb3e_901086a1.userData.eventName ="blinkit"
-const target_imageundefi9633a_iconGeometry = new THREE.PlaneGeometry(1, 1.4920127795527156);
-   const target_imageundefi9633a_texture = await loadTexture("assets/e-dairymilk marker.png");
-  const target_imageundefi9633a_image = new THREE.MeshBasicMaterial({
-      map: target_imageundefi9633a_texture,
+    image_d466bb3e_901ecfc3.userData.eventName ="blinkit"
+const target_imageundefiec7f7_iconGeometry = new THREE.PlaneGeometry(1, 1.4920127795527156);
+   const target_imageundefiec7f7_texture = await loadTexture("assets/e-dairymilk marker.png");
+  const target_imageundefiec7f7_image = new THREE.MeshBasicMaterial({
+      map: target_imageundefiec7f7_texture,
     });
-    const target_imageundefi9633a = new THREE.Mesh(target_imageundefi9633a_iconGeometry, target_imageundefi9633a_image);
-    target_imageundefi9633a.scale.set(1, 1, 1);
-    target_imageundefi9633a.position.set(0.01, -0.01, 0.01);
-    target_imageundefi9633a.rotation.set(-0.001, 0, 0);
+    const target_imageundefiec7f7 = new THREE.Mesh(target_imageundefiec7f7_iconGeometry, target_imageundefiec7f7_image);
+    target_imageundefiec7f7.scale.set(1, 1, 1);
+    target_imageundefiec7f7.position.set(0.01, -0.01, 0.01);
+    target_imageundefiec7f7.rotation.set(-0.001, 0, 0);
     
     
     
-const image_b9599a50_c2216da5_iconGeometry = new THREE.PlaneGeometry(1, 1);
-   const image_b9599a50_c2216da5_texture = await loadTexture("assets/amazon-logo.png");
-  const image_b9599a50_c2216da5_image = new THREE.MeshBasicMaterial({
-      map: image_b9599a50_c2216da5_texture,
+const image_b9599a50_c221c13f_iconGeometry = new THREE.PlaneGeometry(1, 1);
+   const image_b9599a50_c221c13f_texture = await loadTexture("assets/amazon-logo.png");
+  const image_b9599a50_c221c13f_image = new THREE.MeshBasicMaterial({
+      map: image_b9599a50_c221c13f_texture,
     });
-    const image_b9599a50_c2216da5 = new THREE.Mesh(image_b9599a50_c2216da5_iconGeometry, image_b9599a50_c2216da5_image);
-    image_b9599a50_c2216da5.scale.set(0.3, 0.3, 0.3);
-    image_b9599a50_c2216da5.position.set(0.34, -0.96, 0);
-    image_b9599a50_c2216da5.rotation.set(-0.001, 0, 0);
-    image_b9599a50_c2216da5.userData.clickable = true
+    const image_b9599a50_c221c13f = new THREE.Mesh(image_b9599a50_c221c13f_iconGeometry, image_b9599a50_c221c13f_image);
+    image_b9599a50_c221c13f.scale.set(0.3, 0.3, 0.3);
+    image_b9599a50_c221c13f.position.set(0.34, -0.96, 0);
+    image_b9599a50_c221c13f.rotation.set(-0.001, 0, 0);
+    image_b9599a50_c221c13f.userData.clickable = true
     
-    image_b9599a50_c2216da5.userData.eventName ="amazon"
+    image_b9599a50_c221c13f.userData.eventName ="amazon"
 
-    const video_asset_d1c1259dfb6_planeGeometry = new THREE.PlaneGeometry(1, 1.2857142857142858);
+    const video_asset_d1c1252be8f_planeGeometry = new THREE.PlaneGeometry(1, 1.2857142857142858);
 
-    const video_asset_d1c1259dfb6_Item0Video = await loadVideo("assets/mother dairy video.mp4");
+    const video_asset_d1c1252be8f_Item0Video = await loadVideo("assets/mother dairy video.mp4");
 
-    const video_asset_d1c1259dfb6_Item0VideoTexture = new THREE.VideoTexture(
-      video_asset_d1c1259dfb6_Item0Video
+    const video_asset_d1c1252be8f_Item0VideoTexture = new THREE.VideoTexture(
+      video_asset_d1c1252be8f_Item0Video
     );
 
-    let video_asset_d1c1259dfb6_Item0VideoMaterial
+    let video_asset_d1c1252be8f_Item0VideoMaterial
 
-      video_asset_d1c1259dfb6_Item0VideoMaterial = new THREE.MeshBasicMaterial({
-          map: video_asset_d1c1259dfb6_Item0VideoTexture,
+      video_asset_d1c1252be8f_Item0VideoMaterial = new THREE.MeshBasicMaterial({
+          map: video_asset_d1c1252be8f_Item0VideoTexture,
         })
     
-     const video_asset_d1c1259dfb6 = new THREE.Mesh(
-      video_asset_d1c1259dfb6_planeGeometry,
-      video_asset_d1c1259dfb6_Item0VideoMaterial
+     const video_asset_d1c1252be8f = new THREE.Mesh(
+      video_asset_d1c1252be8f_planeGeometry,
+      video_asset_d1c1252be8f_Item0VideoMaterial
     );
 
-  video_asset_d1c1259dfb6.position.set(0, 0.02, 0);
+  video_asset_d1c1252be8f.position.set(0, 0.02, 0);
 
 
 
   if (isIOS) {
-    video_asset_d1c1259dfb6_Item0Video.muted=isIOS
+    video_asset_d1c1252be8f_Item0Video.muted=isIOS
     muteIconMesh = await loadUnmuteLogo();
     anchor.group.add(muteIconMesh);
   }
 
-  video_asset_d1c1259dfb6_Item0Video.loop=true;
+  video_asset_d1c1252be8f_Item0Video.loop=true;
   
-  video_asset_d1c1259dfb6.scale.set(0.95, 1.05, 1);
+  video_asset_d1c1252be8f.scale.set(0.95, 1.05, 1);
 
-    video_asset_d1c1259dfb6.rotation.set(-0.001, 0, 0);
+    video_asset_d1c1252be8f.rotation.set(-0.002, 0, 0);
 
     
   
@@ -258,7 +258,7 @@ const image_b9599a50_c2216da5_iconGeometry = new THREE.PlaneGeometry(1, 1);
 
         if(isIOS){ 
           if (o.userData.clickable && o === muteIconMesh) {
-            video_asset_d1c1259dfb6_Item0Video.muted=false
+            video_asset_d1c1252be8f_Item0Video.muted=false
     
             anchor.group.remove(muteIconMesh);
             return true;
@@ -271,14 +271,14 @@ const image_b9599a50_c2216da5_iconGeometry = new THREE.PlaneGeometry(1, 1);
       if (o.userData.clickable) window.showLoadingScreen();
 
       
-      if (o.userData.clickable && o === image_d466bb3e_901086a1) {
+      if (o.userData.clickable && o === image_d466bb3e_901ecfc3) {
         setTimeout(()=>{
           window.location.href = "https://blinkit.com/s/?q=mother%20dairy%20milkshake"
         },100)
         }
       
 
-      if (o.userData.clickable && o === image_b9599a50_c2216da5) {
+      if (o.userData.clickable && o === image_b9599a50_c221c13f) {
         setTimeout(()=>{
           window.location.href = "https://www.amazon.in/s?k=mother+dairy+milkshake&crid=286KBV3I5DWQD&sprefix=mother+dairy+milk%2Caps%2C255&ref=nb_sb_ss_ts-doa-p_1_17"
         },100)
@@ -289,10 +289,10 @@ const image_b9599a50_c2216da5_iconGeometry = new THREE.PlaneGeometry(1, 1);
     })
     
       
-    anchor.group.add(image_d466bb3e_901086a1)
+    anchor.group.add(image_d466bb3e_901ecfc3)
 
-anchor.group.add(image_b9599a50_c2216da5)
-anchor.group.add(video_asset_d1c1259dfb6)
+anchor.group.add(image_b9599a50_c221c13f)
+anchor.group.add(video_asset_d1c1252be8f)
 
 
     anchor.onTargetFound = () => {
@@ -310,12 +310,12 @@ anchor.group.add(video_asset_d1c1259dfb6)
 
 
      
-      video_asset_d1c1259dfb6_Item0Video.play();
+      video_asset_d1c1252be8f_Item0Video.play();
     };
 
 
     anchor.onTargetLost = () => {
-       video_asset_d1c1259dfb6_Item0Video.pause();
+       video_asset_d1c1252be8f_Item0Video.pause();
 
         
 
